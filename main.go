@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+	"log"
 	"github.com/gosexy/cli"
 )
 
@@ -12,7 +12,7 @@ func main() {
 	err = cli.Dispatch()
 
 	if err != nil {
-		fmt.Fatalf("Error: %s\n", err.Error())
+		log.Fatalf("Error: %s\n", err.Error())
 	}
 
 }
