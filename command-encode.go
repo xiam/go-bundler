@@ -26,8 +26,8 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/gosexy/cli"
 	"io"
+	"menteslibres.net/gosexy/cli"
 	"os"
 )
 

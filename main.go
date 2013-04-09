@@ -2,7 +2,7 @@ package main
 
 import (
 	"log"
-	"github.com/gosexy/cli"
+	"menteslibres.net/gosexy/cli"
 )
 
 func main() {
